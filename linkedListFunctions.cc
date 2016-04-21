@@ -188,6 +188,9 @@ public:
       root = root2;
       root2 = root2->next;
     }
+
+
+    
     Node* temp = root;
     //cout << "pred while " << N1 << " " << N2 << endl;
     while ((root1 != nullptr) && (root2 != nullptr)) {
